@@ -1,6 +1,8 @@
+/** @type {import('next').NextConfig} */
+
 const withSvgr = require('next-svgr');
 
-module.exports = withSvgr({
+const nextConfig = withSvgr({
   reactStrictMode: true,
   async rewrites() {
     return [
@@ -39,4 +41,6 @@ module.exports = withSvgr({
     ],
     domains: ['storage.yandexcloud.net'],
   },
-});
+})
+
+module.exports = nextConfig
