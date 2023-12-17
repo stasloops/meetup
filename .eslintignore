@@ -1,0 +1,8 @@
+/.git
+/.idea
+/.vscode
+webpack.config.js
+.eslintrc
+**/*Styled.ts
+**/*Styles.ts
+node_modules
