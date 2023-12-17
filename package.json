@@ -7,9 +7,6 @@
     "type": "git",
     "url": "https://github.com/gomeetup/meetup-frontend"
   },
-  "engines": {
-    "node": ">=18.x"
-  },
   "packageManager": "yarn@1.22.19",
   "scripts": {
     "build": "next build",
