@@ -117,7 +117,13 @@ export const EventsPage = observer(() => {
     };
   }, []);
 
-  
+  useEffect(() => {
+    if (size.clientWidth <= 768) {
+      setFilter(false);
+    } else {
+      setFilter(true);
+    }
+  }, [size]);
 
   const mobileS = useMediaQuery('(max-width: 768px)');
 
