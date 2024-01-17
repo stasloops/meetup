@@ -1,0 +1,16 @@
+export const themeMatrix = {
+  dev: 'Разработка',
+  mobile: 'Мобильное',
+  quality: 'Тестирование',
+  gamedev: 'Геймдев',
+  devops: 'Девопс',
+  design: 'Дизайн',
+  product: 'Продукт',
+  analytics: 'Аналитика',
+  management: 'Менеджмент',
+  data: 'Данные',
+  other: 'Остальное',
+  security: 'Безопасность',
+  marketing: 'Маркетинг',
+  hr: 'Карьера',
+};

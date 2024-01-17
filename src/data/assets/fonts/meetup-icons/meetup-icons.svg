@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2022 by original authors @ fontello.com</metadata>
+<defs>
+<font id="meetup-icons" horiz-adv-x="1000" >
+<font-face font-family="meetup-icons" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="check" unicode="&#xe800;" d="M969 850l-516-524-227 220-226-233 458-444 742 753-231 228z m-512-876l-351 341 122 125 226-219 515 523 125-123-637-647z" horiz-adv-x="1200" />
+
+<glyph glyph-name="drop-arrow" unicode="&#xe801;" d="M706 461l44 44 44-44 475-475c39-39 101-39 140 0 38 38 38 101 0 139l-589 589c-39 39-101 39-140 0l-589-589c-38-38-38-101 0-139 39-39 101-39 140 0l475 475z" horiz-adv-x="1500" />
+
+<glyph glyph-name="filter-params" unicode="&#xe802;" d="M1300 700h-1300v-100h1300v100z m0-300h-1300v-100h1300v100z m0-300h-1300v-100h1300v100z m-1000 100h-200v-300h200v300z m900 300h-200v-300h200v300z m-500 300h-200v-300h200v300z" horiz-adv-x="1300" />
+</font>
+</defs>
+</svg>
