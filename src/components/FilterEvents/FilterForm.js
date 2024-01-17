@@ -158,7 +158,7 @@ export const FilterForm = observer(({ onChange, initialState, mobileState, count
 
   return (
     <FFWrapper>
-      {eventsStore.filterParams?.format ? (
+      {/* {eventsStore.filterParams?.format ? ( */}
         <FF className={mobileState ? 'open' : ''} style={{ paddingTop: 0, paddingRight: 0 }}>
           <FFSectionNull>
             <ColFlex>
@@ -290,9 +290,7 @@ export const FilterForm = observer(({ onChange, initialState, mobileState, count
             </FFSection>
           </FFSectionCheck>
         </FF>
-      ) : (
-        <FiltersSkeleton />
-      )}
+  
     </FFWrapper>
   );
 });
