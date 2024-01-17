@@ -173,7 +173,7 @@ export const EventsPage = observer(() => {
         </CategoriesWrapperBlock>
       </FilterBlock>
       <FilterBox>
-        {store.eventsStore?._events ? (
+        {/* {store.eventsStore?._events ? ( */}
           <>
             <SearchButton black onClick={() => store.pageStore.setShowOuterPanel(store.pageStore._panelTypes.SEARCH)}>
               <SearchIconSmall />
@@ -190,9 +190,9 @@ export const EventsPage = observer(() => {
               {filter ? 'Закрыть' : 'Фильтры'}
             </DropDown>
           </>
-        ) : (
+        {/* ) : (
           <FilterBoxSkeleton />
-        )}
+        )} */}
       </FilterBox>
       {filter && mobileS ? (
         <FormProvider {...methods} style={{ order: 3 }}>
