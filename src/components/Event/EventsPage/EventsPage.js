@@ -117,13 +117,7 @@ export const EventsPage = observer(() => {
     };
   }, []);
 
-  useEffect(() => {
-    if (size.clientWidth <= 768) {
-      setFilter(false);
-    } else {
-      setFilter(true);
-    }
-  }, [size]);
+  
 
   const mobileS = useMediaQuery('(max-width: 768px)');
 
@@ -132,7 +126,7 @@ export const EventsPage = observer(() => {
       <>
         <FilterEvents
           openFilter={filter}
-          openFilterSet={() => setFilter()}
+          openFilterSet={() => {}}
           openSearch={() => store.pageStore.setShowOuterPanel(store.pageStore._panelTypes.SEARCH)}
           methods={methods}
           countParams={countParams}
@@ -194,7 +188,7 @@ export const EventsPage = observer(() => {
           <FilterBoxSkeleton />
         )} */}
       </FilterBox>
-      {filter && mobileS ? (
+      {filter  ? (
         <FormProvider {...methods} style={{ order: 3 }}>
           <FilterForm
             onChange={changeFilterParams}
